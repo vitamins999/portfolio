@@ -2,7 +2,16 @@ module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        84: '21rem',
+        108: '27rem',
+      },
+      screens: {
+        iPadPro: { raw: '(width: 1024px) and (height: 1366px)' },
+        iPadProWidescreen: { raw: '(width: 1366px) and (height: 1024px)' },
+      },
+    },
   },
   variants: {
     extend: {},
