@@ -7,7 +7,7 @@ const Menu = ({ menuOpen }) => {
       initial={false}
       animate={menuOpen ? { x: 0 } : { x: 500 }}
       transition={{ type: 'tween' }}
-      className={`bg-gray-700 font-body fixed right-0 top-0 w-60 xl:w-108 h-full flex items-center justify-center z-40 text-gray-100`}
+      className={`bg-gray-700 font-headingMain fixed right-0 top-0 w-60 xl:w-108 h-full flex items-center justify-center z-40 text-gray-100`}
     >
       <ul className='text-2xl'>
         <li>
