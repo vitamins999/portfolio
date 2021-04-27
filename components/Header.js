@@ -4,8 +4,9 @@ const Header = ({ menuOpen, setMenuOpen }) => {
   return (
     <header className='flex w-full md:text-lg sm:text-base text-xs z-50 fixed top-0 right-0 justify-between px-16 py-12 items-center'>
       <Link href='/'>
-        <a className='font-headingMain uppercase font-bold cursor-pointer hover:text-green-700 transition ease-in-out duration-150'>
-          Jools Barnett
+        <a className='font-headingMain text-green-100 text-5xl uppercase font-bold cursor-pointer'>
+          <span className='text-green-400'>J</span>
+          <span>B</span>
         </a>
       </Link>
       <button
@@ -14,8 +15,8 @@ const Header = ({ menuOpen, setMenuOpen }) => {
       >
         <svg
           className={`${
-            menuOpen ? 'text-gray-100' : 'text-gray-900'
-          } w-6 h-6 cursor-pointer hover:text-green-500 transition ease-in-out duration-150`}
+            menuOpen ? 'text-gray-100' : 'text-gray-100'
+          } w-8 h-8 cursor-pointer hover:text-green-500 transition ease-in-out duration-150`}
           fill='none'
           stroke='currentColor'
           viewBox='0 0 24 24'
