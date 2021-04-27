@@ -13,7 +13,7 @@ const Layout = ({ children, title }) => {
       <Head>
         <title>Jools Barnett | {title}</title>
       </Head>
-      <div>
+      <div className='font-bodyMain'>
         <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div>{children}</div>
         <Footer />

@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        bodyMain: ['Source Sans Pro'],
+        headingMain: ['Playfair Display'],
+        bodyEandE: ['Montserrat'],
+        headingEandE: ['Libre Baskerville'],
+      },
       spacing: {
         84: '21rem',
         108: '27rem',
