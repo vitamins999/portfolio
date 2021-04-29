@@ -1,11 +1,16 @@
-import { useState } from 'react';
+import { useState, ReactNode } from 'react';
 
 import Head from 'next/head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Menu from '../components/Menu';
+import Header from './Header';
+import Footer from './Footer';
+import Menu from './Menu';
 
-const Layout = ({ children, title }) => {
+type Props = {
+  children: ReactNode;
+  title: string;
+};
+
+const Layout = ({ children, title }: Props) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
