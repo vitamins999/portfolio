@@ -8,6 +8,8 @@ module.exports = {
         headingMain: ['Playfair Display'],
         bodyEandE: ['Montserrat'],
         headingEandE: ['Libre Baskerville'],
+        bodyWatchlist: ['Overpass'],
+        headingWatchlist: ['Permanent Marker'],
       },
       spacing: {
         84: '21rem',
@@ -19,6 +21,7 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         essence: "url('/img/project-tarot-bg.jpg')",
+        watchlist: "url('/img/project-watchlist-bg.jpg')",
       }),
     },
   },
