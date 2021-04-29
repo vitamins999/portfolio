@@ -9,7 +9,7 @@ const ProjectWatchlist = () => {
           Watchlist
         </h1>
         <h2 className='font-bodyWatchlist text-gray-800 tracking-wider'>
-          A serverless NextJS webapp
+          A serverless NextJS web app
         </h2>
         <p className='max-w-lg mt-10 font-bodyWatchlist text-gray-900 text-center'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod iste
