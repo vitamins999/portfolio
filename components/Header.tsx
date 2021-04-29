@@ -1,6 +1,12 @@
+import { Dispatch, SetStateAction } from 'react';
 import Link from 'next/link';
 
-const Header = ({ menuOpen, setMenuOpen }) => {
+type Props = {
+  menuOpen: boolean;
+  setMenuOpen: Dispatch<SetStateAction<boolean>>;
+};
+
+const Header = ({ menuOpen, setMenuOpen }: Props) => {
   return (
     <header className='flex w-full md:text-lg sm:text-base text-xs z-50 fixed top-0 right-0 justify-between px-16 py-12 items-center'>
       <Link href='/'>
@@ -23,9 +29,6 @@ const Header = ({ menuOpen, setMenuOpen }) => {
           xmlns='http://www.w3.org/2000/svg'
         >
           <path
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
             strokeLinecap='round'
             strokeLinejoin='round'
             strokeWidth='2'
