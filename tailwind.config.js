@@ -12,6 +12,8 @@ module.exports = {
         headingWatchlist: ['Permanent Marker'],
         bodyOwk: ['Source Sans Pro'],
         headingOwk: ['Playfair Display'],
+        bodyUbooze: ['Crimson Text'],
+        headingUbooze: ['Unica One'],
       },
       spacing: {
         84: '21rem',
@@ -25,6 +27,7 @@ module.exports = {
         essence: "url('/img/project-tarot-bg.jpg')",
         watchlist: "url('/img/project-watchlist-bg.jpg')",
         owk: "url('/img/project-owk-bg.jpg')",
+        ubooze: "url('/img/project-ubooze-bg.jpg')",
       }),
     },
   },
