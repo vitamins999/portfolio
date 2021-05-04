@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 const ProjectWatchlist = () => {
   return (
-    <section className='relative h-screen w-full grid grid-cols-2'>
+    <section
+      id='watchlist'
+      className='relative h-screen w-full grid grid-cols-2'
+    >
       <div className='absolute top-0 left-0 bg-watchlist bg-center bg-no-repeat h-screen w-full z-0'></div>
       <div className='z-10 flex flex-col justify-center items-center col-start-2'>
         <h1 className='font-headingWatchlist text-7xl text-red-700'>

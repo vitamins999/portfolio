@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 const ProjectOscarWillowKhan = () => {
   return (
-    <section className='relative h-screen w-full grid grid-cols-2'>
+    <section
+      id='oscar-willow-khan'
+      className='relative h-screen w-full grid grid-cols-2'
+    >
       <div className='absolute top-0 left-0 bg-owk bg-center bg-no-repeat h-screen w-full z-0'></div>
       <div className='z-10 flex flex-col justify-center items-center'>
         <h1 className='font-headingOwk text-6xl font-black uppercase text-blue-800'>
