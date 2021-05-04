@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 const ProjectUbooze = () => {
   return (
-    <section className='relative h-screen w-full flex flex-col justify-center items-center'>
+    <section
+      id='ubooze'
+      className='relative h-screen w-full flex flex-col justify-center items-center'
+    >
       <div className='absolute top-0 left-0 bg-ubooze bg-center bg-no-repeat h-screen w-full z-0'></div>
       <div className='absolute top-0 left-0 bg-gray-900 opacity-60 h-screen w-full z-0'></div>
       <div className='z-10 flex flex-col justify-center items-center'>

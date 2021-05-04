@@ -2,7 +2,10 @@ import Link from 'next/link';
 
 const ProjectEssenceAndElements = () => {
   return (
-    <section className='relative h-screen w-full flex flex-col justify-center items-center'>
+    <section
+      id='essence-and-elements'
+      className='relative h-screen w-full flex flex-col justify-center items-center'
+    >
       <div className='absolute top-0 left-0 bg-essence h-screen w-full z-0'></div>
       <div className='absolute top-0 left-0 bg-gray-900 opacity-60 h-screen w-full z-0'></div>
 
