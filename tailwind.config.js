@@ -28,6 +28,7 @@ module.exports = {
         watchlist: "url('/img/project-watchlist-bg.jpg')",
         owk: "url('/img/project-owk-bg.jpg')",
         ubooze: "url('/img/project-ubooze-bg.jpg')",
+        about: "url('/img/about-bg.jpg')",
       }),
     },
   },
