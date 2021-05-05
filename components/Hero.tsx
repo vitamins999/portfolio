@@ -1,6 +1,9 @@
 const Hero = () => {
   return (
-    <section className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center'>
+    <section
+      id='hero'
+      className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center'
+    >
       <video
         className='z-0 object-cover absolute top-0 left-0 w-full h-screen'
         src='/img/hero-bg.mp4'
