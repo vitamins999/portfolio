@@ -23,7 +23,7 @@ const Layout = ({ children, title }: Props) => {
         <div>{children}</div>
         <Footer />
       </div>
-      <Menu menuOpen={menuOpen} />
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </>
   );
 };
