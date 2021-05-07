@@ -1,3 +1,5 @@
+import ReactFullpage from '@fullpage/react-fullpage';
+
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
 import About from '../components/About';
@@ -12,15 +14,30 @@ const HomePage = () => {
 
   return (
     <Layout title={title}>
-      <main>
-        <Hero />
-        <About />
-        <ProjectUbooze />
-        <ProjectWatchlist />
-        <ProjectEssenceAndElements />
-        <ProjectOscarWillowKhan />
-        <Contact />
-      </main>
+      <ReactFullpage
+        navigation
+        navigationPosition={'left'}
+        anchors={[
+          'home',
+          'about',
+          'ubooze',
+          'watchlist',
+          'essence-and-elements',
+          'oscar-willow-khan',
+          'contact',
+        ]}
+        render={({ fullpageApi }) => (
+          <ReactFullpage.Wrapper>
+            <Hero fullpageApi={fullpageApi} />
+            <About />
+            <ProjectUbooze />
+            <ProjectWatchlist />
+            <ProjectEssenceAndElements />
+            <ProjectOscarWillowKhan />
+            <Contact />
+          </ReactFullpage.Wrapper>
+        )}
+      />
     </Layout>
   );
 };
