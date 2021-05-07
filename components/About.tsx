@@ -1,8 +1,7 @@
 const About = () => {
   return (
-    <section id='about' className='relative h-screen w-full grid grid-cols-2'>
-      <div className='absolute top-0 left-0 bg-about bg-cover h-screen w-full z-0'></div>
-      <div className='z-10 flex flex-col justify-center items-center col-start-2'>
+    <section className='h-screen w-full bg-about bg-cover section flex'>
+      <div className='flex flex-col justify-center items-end mr-64'>
         <div className='flex flex-col justify-center items-center pb-16'>
           <h1 className='font-headingMain text-7xl text-red-700'>About Me</h1>
           <h2 className='font-bodyMain text-gray-800 tracking-wider'>

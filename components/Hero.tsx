@@ -1,15 +1,13 @@
-const Hero = () => {
+const Hero = ({ fullpageApi }) => {
   return (
-    <section
-      id='hero'
-      className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center'
-    >
+    <section className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center section'>
       <video
         className='z-0 object-cover absolute top-0 left-0 w-full h-screen'
         src='/img/hero-bg.mp4'
         muted
         loop
         autoPlay
+        data-autoplay
       ></video>
       <div className='relative z-10 flex flex-col justify-center items-center'>
         <h1 className='font-headingMain text-8xl text-green-600'>
@@ -28,11 +26,14 @@ const Hero = () => {
           passion for creative problem solving.
         </p>
         <div className='py-5 mt-10'>
-          <a href='/#ubooze'>
-            <button className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE'>
-              My Projects
-            </button>
-          </a>
+          <button
+            onClick={() => {
+              fullpageApi.moveTo(3);
+            }}
+            className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 focus:outline-none font-bodyEandE'
+          >
+            My Projects
+          </button>
         </div>
       </div>
     </section>

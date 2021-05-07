@@ -1,8 +1,7 @@
 const Contact = () => {
   return (
-    <section id='contact' className='relative h-screen w-full grid grid-cols-3'>
-      <div className='absolute top-0 left-0 bg-contact bg-cover h-screen w-full z-0'></div>
-      <div className='z-10 flex flex-col justify-center items-center col-start-2 col-end-4'>
+    <section className='relative h-screen w-full bg-contact bg-cover section'>
+      <div className='flex flex-col justify-center items-center ml-108'>
         <h1 className='font-headingMain text-7xl text-red-700'>Contact Me</h1>
         <p className='max-w-lg mt-10 font-bodyMain text-gray-900 text-center'>
           Have any questions or comments? No problem. Just submit the form below
