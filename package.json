@@ -10,15 +10,11 @@
   "dependencies": {
     "@fullpage/react-fullpage": "^0.1.19",
     "framer-motion": "^4.1.9",
-    "jquery": "^3.6.0",
-    "jquery-scrollify": "^1.0.21",
     "next": "^10.2.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-jquery-plugin": "^1.1.7"
+    "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/jquery": "^3.5.5",
     "@types/react": "^17.0.4",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
