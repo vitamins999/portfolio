@@ -33,7 +33,7 @@ const Layout = ({ children, title }: Props) => {
       <div className='font-bodyMain'>
         <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div>{children}</div>
-        <Footer />
+        <Footer menuOpen={menuOpen} />
       </div>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
     </>
