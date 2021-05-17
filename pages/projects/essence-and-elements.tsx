@@ -1,3 +1,6 @@
+import { motion } from 'framer-motion';
+import { fadeOutPage } from '../../animations/navigation';
+
 import Layout from '../../components/Layout';
 
 const EssenceAndElementsPage = () => {
@@ -5,7 +8,13 @@ const EssenceAndElementsPage = () => {
 
   return (
     <Layout title={title}>
-      <main>
+      <motion.main
+        variants={fadeOutPage}
+        exit='exit'
+        initial='initial'
+        animate='animate'
+        transition={{ duration: 0.75 }}
+      >
         <section className='relative w-full h-120 bg-essence bg-center'>
           <div className='absolute top-0 left-0 bg-gray-900 opacity-60 h-120 w-full z-0'></div>
           <div className='absolute top-0 left-0 pb-8 px-16 flex justify-between items-end h-120 w-full'>
@@ -142,7 +151,7 @@ const EssenceAndElementsPage = () => {
             </ul>
           </div>
         </section>
-      </main>
+      </motion.main>
     </Layout>
   );
 };
