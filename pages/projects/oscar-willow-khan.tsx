@@ -15,17 +15,19 @@ const OscarWillowKhanPage = () => {
         animate='animate'
         transition={{ duration: 0.75 }}
       >
-        <section className='relative w-full h-120 bg-owk bg-center'>
-          <div className='absolute top-0 left-0 pb-12 px-16 flex justify-between items-end h-120 w-full'>
-            <div className='text-blue-600'>
-              <h1 className='font-bodyMain text-xl pl-1'>Projects</h1>
-              <h2 className='font-headingOwk text-5xl font-black uppercase text-blue-800'>
+        <section className='relative w-full h-96 lg:h-120 bg-owk bg-center'>
+          <div className='absolute top-0 left-0 pb-12 lg:px-16 flex flex-col justify-center lg:flex-row lg:items-end lg:justify-between h-120 w-full'>
+            <div className='text-blue-800 text-center lg:text-left'>
+              <h1 className='font-bodyMain text-lg lg:text-xl lg:pl-1 -mb-1 font-semibold'>
+                Projects
+              </h1>
+              <h2 className='font-headingOwk text-4xl lg:text-5xl iPadPro:text-4xl iPadPro:max-w-xs iPadWidescreen:text-4xl iPadWidescreen:max-w-xs font-black uppercase text-blue-800'>
                 Oscar, Willow & Khan
               </h2>
             </div>
-            <div>
+            <div className='flex lg:flex-row flex-col items-center'>
               <a href='#' target='_blank' rel='noreferrer'>
-                <button className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
+                <button className='py-4 px-14 lg:my-0 my-5  lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   Visit Site
                 </button>
               </a>
@@ -37,8 +39,8 @@ const OscarWillowKhanPage = () => {
             </div>
           </div>
         </section>
-        <section className='w-full flex justify-center'>
-          <div className='text-center text-gray-900 py-10 max-w-3xl'>
+        <section className='w-full flex justify-center lg:px-0 px-10'>
+          <div className='text-center text-gray-900 lg:py-10 py-5 lg:max-w-3xl'>
             <h1 className='font-bodyMain text-2xl py-5'>Technologies Used</h1>
             <div className='py-3'>
               <h2 className='font-bodyMain text-xl font-semibold tracking-wide'>
@@ -50,7 +52,7 @@ const OscarWillowKhanPage = () => {
             </div>
           </div>
         </section>
-        <section className='px-84 py-20'>
+        <section className='lg:px-84 iPadPro:px-32 iPadWidescreen:px-32 px-10 lg:pb-10 pt-5 pb-5'>
           <div>
             <h3 className='text-3xl font-headingMain py-3'>Problem</h3>
             <p className='pt-5'>
@@ -114,7 +116,7 @@ const OscarWillowKhanPage = () => {
             <h3 className='text-3xl font-headingMain py-3'>
               Key Design Choices
             </h3>
-            <ul className='list-disc list-inside'>
+            <ul className='list-disc lg:list-inside lg:px-0 px-5'>
               <li className='pt-5'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
                 quas voluptatum numquam labore doloribus rerum, cumque sunt

@@ -11,7 +11,7 @@ const Footer = ({ menuOpen }: Props) => {
     <footer
       className={`${
         menuOpen ? 'hidden' : 'null'
-      } fixed flex w-full justify-end md:bottom-10 bottom-5 z-10 px-16 py-4 hover:text-green-700 transition ease-in-out duration-150`}
+      } fixed flex w-full justify-end lg:bottom-10 bottom-5 z-10 lg:px-16 px-8 lg:py-4 py-2 hover:text-green-700 transition ease-in-out duration-150`}
     >
       <Link href='#'>
         <motion.a whileHover={{ translateY: -7 }} className='cursor-pointer'>

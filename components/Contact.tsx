@@ -1,13 +1,15 @@
 const Contact = () => {
   return (
-    <section className='relative h-screen w-full bg-contact bg-cover section'>
-      <div className='flex flex-col justify-center items-center ml-108'>
-        <h1 className='font-headingMain text-7xl text-red-700'>Contact Me</h1>
-        <p className='max-w-lg mt-10 font-bodyMain text-gray-900 text-center'>
+    <section className='relative h-screen w-full bg-contactPortrait lg:bg-contact iPadPro:bg-top-4 bg-cover section'>
+      <div className='flex flex-col justify-center items-center lg:px-0 px-5 iPadPro:ml-0 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-108'>
+        <h1 className='font-headingMain text-5xl iPadWidescreen:text-5xl lg:text-7xl text-red-700'>
+          Contact Me
+        </h1>
+        <p className='lg:max-w-lg px-3 lg:px-0 lg:mt-10 mt-5 lg:text-base text-sm iPadWidescreen:text-sm font-bodyMain text-gray-900 text-center'>
           Have any questions or comments? No problem. Just submit the form below
           and I'll strive to get back to you as soon as possible.
         </p>
-        <form className='py-5 mt-5 flex flex-wrap justify-center max-w-2xl'>
+        <form className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'>
           <div className='p-2 w-1/2'>
             <div className='relative'>
               <label
@@ -22,7 +24,7 @@ const Contact = () => {
                 name='name'
                 placeholder='eg. Jim Morrison'
                 required
-                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out shadow-inner'
+                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 iPadWidescreen:text-sm text-sm lg:text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out shadow-inner'
               />
             </div>
           </div>
@@ -40,7 +42,7 @@ const Contact = () => {
                 name='email'
                 placeholder='eg. jim.morrison@company.com'
                 required
-                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out shadow-inner'
+                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 iPadWidescreen:text-sm text-sm lg:text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out shadow-inner'
               />
             </div>
           </div>
@@ -56,7 +58,7 @@ const Contact = () => {
                 id='message'
                 name='message'
                 required
-                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out shadow-inner'
+                className='w-full bg-gray-100 bg-opacity-50 border border-gray-300 focus:border-green-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 iPadWidescreen:text-sm text-sm lg:text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out shadow-inner'
               ></textarea>
             </div>
           </div>
