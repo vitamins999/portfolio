@@ -8,9 +8,9 @@ type Props = {
 
 const Header = ({ menuOpen, setMenuOpen }: Props) => {
   return (
-    <header className='flex w-full md:text-lg sm:text-base text-xs z-50 fixed top-0 right-0 justify-between px-16 py-12 items-center'>
+    <header className='flex w-full md:text-lg sm:text-base text-xs z-50 fixed top-0 right-0 justify-between md:px-16 px-8 md:py-12 py-5 iPadPro:px-16 iPadPro:py-12 iPadProWidescreen:px-16 iPadProWidescreen:py-12 items-center'>
       <Link href='/'>
-        <a className='font-headingMain text-green-100 text-5xl uppercase font-bold cursor-pointer'>
+        <a className='font-headingMain text-green-100 lg:text-5xl text-3xl uppercase font-bold cursor-pointer'>
           <span className='text-green-400'>J</span>
           <span>B</span>
         </a>

@@ -1,7 +1,25 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    backgroundPosition: {
+      bottom: 'bottom',
+      center: 'center',
+      left: 'left',
+      'left-1': 'left 1rem',
+      'left-2': 'left 2rem',
+      'left-3': 'left 3rem',
+      'left-4': 'left 4rem',
+      'left-bottom': 'left bottom',
+      'left-top': 'left top',
+      right: 'right',
+      'right-bottom': 'right bottom',
+      'right-top': 'right top',
+      top: 'top',
+      'top-4': 'center top 4rem',
+    },
     extend: {
       fontFamily: {
         bodyMain: ['Source Sans Pro'],
@@ -25,16 +43,22 @@ module.exports = {
         144: '36rem',
       },
       screens: {
+        xs: '568px',
+        iPad: { raw: '(width: 768px) and (height: 1024px)' },
+        iPadWidescreen: { raw: '(width: 1024px) and (height: 768px)' },
         iPadPro: { raw: '(width: 1024px) and (height: 1366px)' },
         iPadProWidescreen: { raw: '(width: 1366px) and (height: 1024px)' },
+        ...defaultTheme.screens,
       },
       backgroundImage: (theme) => ({
         essence: "url('/img/project-tarot-bg.webp')",
         watchlist: "url('/img/project-watchlist-bg.webp')",
+        watchlistPortrait: "url('/img/project-watchlist-bg-portrait.jpg')",
         owk: "url('/img/project-owk-bg.webp')",
         ubooze: "url('/img/project-ubooze-bg.webp')",
         about: "url('/img/about-bg.webp')",
         contact: "url('/img/contact-bg.webp')",
+        contactPortrait: "url('/img/contact-bg-portrait.jpg')",
       }),
     },
   },

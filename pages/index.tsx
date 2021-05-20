@@ -1,5 +1,6 @@
 import ReactFullpage from '@fullpage/react-fullpage';
 import { motion } from 'framer-motion';
+import { isMobile } from 'react-device-detect';
 
 import Layout from '../components/Layout';
 import Hero from '../components/Hero';
@@ -25,7 +26,7 @@ const HomePage = () => {
         transition={{ duration: 0.75 }}
       >
         <ReactFullpage
-          navigation
+          navigation={isMobile ? false : true}
           navigationPosition={'left'}
           anchors={[
             'home',

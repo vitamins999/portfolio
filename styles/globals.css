@@ -40,3 +40,9 @@ a {
 .fp-left {
   padding-left: 54px;
 }
+
+@media (max-width: 768px) {
+  .fp-left {
+    padding-left: 8px;
+  }
+}

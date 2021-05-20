@@ -15,17 +15,21 @@ const WatchlistPage = () => {
         animate='animate'
         transition={{ duration: 0.75 }}
       >
-        <section className='relative w-full h-120 bg-watchlist bg-center'>
-          <div className='absolute top-0 left-0 pb-12 px-16 flex justify-between items-end h-120 w-full'>
+        <section className='relative w-full h-96 lg:h-120 bg-watchlist bg-center'>
+          <div className='absolute top-0 left-0 pb-12 lg:px-16 flex flex-col justify-center lg:flex-row lg:justify-between lg:items-end h-120 w-full'>
             <div></div>
             <div>
-              <div className='text-red-700 py-10'>
-                <h1 className='font-bodyMain text-xl pl-1'>Projects</h1>
-                <h2 className='font-headingWatchlist text-7xl'>Watchlist</h2>
+              <div className='text-red-700 lg:py-10 text-center lg:text-right iPadPro:text-right iPadWidescreen:text-right'>
+                <h1 className='font-bodyMain text-lg lg:text-xl lg:pl-1 -mb-3 lg:-mb-0'>
+                  Projects
+                </h1>
+                <h2 className='font-headingWatchlist text-6xl lg:text-7xl'>
+                  Watchlist
+                </h2>
               </div>
-              <div>
+              <div className='flex lg:flex-row flex-col items-center'>
                 <a href='#' target='_blank' rel='noreferrer'>
-                  <button className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
+                  <button className='py-4 px-14 lg:my-0 my-5 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                     Visit Site
                   </button>
                 </a>
@@ -38,8 +42,8 @@ const WatchlistPage = () => {
             </div>
           </div>
         </section>
-        <section className='w-full flex justify-center'>
-          <div className='text-center text-gray-900 py-10 max-w-3xl'>
+        <section className='w-full flex justify-center lg:px-0 px-10'>
+          <div className='text-center text-gray-900 lg:py-10 py-5 lg:max-w-3xl'>
             <h1 className='font-bodyMain text-2xl py-5'>Technologies Used</h1>
             <div className='py-3'>
               <h2 className='font-bodyMain text-xl font-semibold tracking-wide'>
@@ -59,7 +63,7 @@ const WatchlistPage = () => {
             </div>
           </div>
         </section>
-        <section className='px-84 py-20'>
+        <section className='lg:px-84 iPadPro:px-32 iPadWidescreen:px-32 px-10 lg:pb-10 pt-5 pb-5'>
           <div>
             <h3 className='text-3xl font-headingMain py-3'>Problem</h3>
             <p className='pt-5'>
@@ -123,7 +127,7 @@ const WatchlistPage = () => {
             <h3 className='text-3xl font-headingMain py-3'>
               Key Design Choices
             </h3>
-            <ul className='list-disc list-inside'>
+            <ul className='list-disc lg:list-inside lg:px-0 px-5'>
               <li className='pt-5'>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
                 quas voluptatum numquam labore doloribus rerum, cumque sunt
