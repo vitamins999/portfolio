@@ -43,8 +43,8 @@ const About = () => {
               Typescript, HTML, CSS, SQL, Python, C# (learning)
             </li>
             <li className='py-2 text-gray-900'>
-              <span className='font-semibold'>Frameworks</span>: React, NextJS,
-              Redux, Express, TailwindCSS
+              <span className='font-semibold'>Frameworks</span>: React, Next.js,
+              Redux, Express, Node, TailwindCSS, SASS
             </li>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Databases</span>: PostgreSQL,

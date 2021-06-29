@@ -10,7 +10,7 @@ const ProjectUbooze = () => {
             Ubooze
           </h1>
           <h2 className='font-bodyUbooze text-gray-200 tracking-widest md:-mt-0 -mt-2'>
-            A fullstack NextJS web app
+            A fullstack Next.js web app
           </h2>
           <p className='md:max-w-lg mt-10 text-sm md:text-base font-bodyUbooze text-gray-100 text-center'>
             Alcohol is expensive. That's why I created uBooze -- a price
@@ -19,8 +19,8 @@ const ProjectUbooze = () => {
             you.
           </p>
           <p className='md:max-w-lg max-w-md mt-5 text-sm md:text-base font-bodyUbooze text-gray-100 text-center'>
-            Technologies used include NextJS, PostgreSQL, Express, TailwindCSS
-            and PassportJS.
+            Technologies used include Next.js, Redux, PostgreSQL, Express,
+            TailwindCSS and PassportJS.
           </p>
           <div className='lg:py-5 mt-10 flex md:flex-row flex-col'>
             <button className='py-4 px-14 md:mr-5 md:mb-0 mb-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
