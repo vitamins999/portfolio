@@ -16,6 +16,7 @@ const OscarWillowKhanPage = () => {
         transition={{ duration: 0.75 }}
       >
         <section className='relative w-full h-96 lg:h-120 bg-owk bg-center'>
+          <div className='absolute top-0 left-0 bg-white opacity-40 h-96 lg:h-120 w-full z-0'></div>
           <div className='absolute top-0 left-0 pb-12 lg:px-16 flex flex-col justify-center lg:flex-row lg:items-end lg:justify-between h-120 w-full'>
             <div className='text-blue-800 text-center lg:text-left'>
               <h1 className='font-bodyMain text-lg lg:text-xl lg:pl-1 -mb-1 font-semibold'>
@@ -26,12 +27,20 @@ const OscarWillowKhanPage = () => {
               </h2>
             </div>
             <div className='flex lg:flex-row flex-col items-center'>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://oscarwillowkhan.vercel.app/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 lg:my-0 my-5  lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   Visit Site
                 </button>
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://github.com/vitamins999/oscar-willow-khan-investments'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   View Code on Github
                 </button>
@@ -47,109 +56,63 @@ const OscarWillowKhanPage = () => {
                 Frontend
               </h2>
               <p className='font-bodyMain text-gray-700'>
-                NextJS, TailwindCSS, Framer Motion
+                Next.js, TailwindCSS, Framer Motion, React Hook Form, React
+                Scroll
               </p>
             </div>
           </div>
         </section>
         <section className='lg:px-84 iPadPro:px-32 iPadWidescreen:px-32 px-10 lg:pb-10 pt-5 pb-5'>
           <div>
-            <h3 className='text-3xl font-headingMain py-3'>Problem</h3>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ex
-              quisquam veniam maxime facilis sunt voluptatibus nemo nobis
-              molestiae. Facilis nobis molestias illum quo. Quod quas quae quis
-              in consectetur officia, tenetur laborum doloribus voluptates ipsam
-              praesentium et assumenda nobis nihil aut asperiores placeat!
-              Consequatur rerum cum, inventore deserunt repudiandae blanditiis,
-              iusto reprehenderit accusantium qui, enim animi temporibus
-              delectus saepe!
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              quisquam voluptatem, rerum dolorum aut quas natus qui quos
-              molestias facilis quo. Iusto exercitationem natus nemo, adipisci
-              veritatis maiores officia totam accusantium odit repudiandae velit
-              vero voluptatem, sunt veniam commodi quasi.
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod
-              provident laborum nesciunt porro blanditiis qui facere! Totam id,
-              delectus laborum voluptas rem hic minus quod cumque, voluptate
-              reiciendis deserunt natus perspiciatis laboriosam animi voluptatem
-              quo harum esse maiores nam officiis? Eum dolorum quasi rerum illo
-              error voluptas aspernatur modi maxime sit consequatur vel nobis
-              quis deserunt, dolor sunt nostrum?
-            </p>
-          </div>
-          <div className='pt-10'>
-            <h3 className='text-3xl font-headingMain py-3'>Solution</h3>
-            <p className='pt-5'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Delectus, perferendis amet vel nam, exercitationem accusamus
-              consequatur minima necessitatibus totam, atque nesciunt. Ipsa
-              reprehenderit deleniti inventore alias! Ducimus reiciendis quidem
-              cum placeat! Culpa vero nihil odio minima atque corrupti esse
-              perferendis, totam, accusamus voluptas voluptatibus. Saepe
-              accusamus recusandae, veniam officia libero voluptates expedita
-              asperiores ex rem nihil in culpa ut inventore.
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-              officia doloribus totam sit! Consequatur ad ut nostrum nisi neque
-              minima eum mollitia sunt nobis reiciendis quod dolor iusto eos
-              rerum explicabo ducimus a doloremque ullam ipsum corrupti, non
-              odio vel nulla? Recusandae eaque, deserunt dicta officia ex enim.
-              Aperiam necessitatibus tenetur et corrupti, fugiat voluptas nisi
-              sed in maxime quibusdam, aspernatur nesciunt! Est, suscipit dolor
-              accusamus adipisci quasi eaque magni porro saepe dicta maiores sit
-              aut corporis placeat temporibus quam!
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              vero fugiat praesentium aspernatur, totam mollitia maiores earum
-              placeat eius dolores magnam necessitatibus, officiis temporibus
-              suscipit eaque. Quam, id temporibus! Molestiae?
-            </p>
-          </div>
-          <div className='pt-10'>
             <h3 className='text-3xl font-headingMain py-3'>
-              Key Design Choices
+              Why Does This Exist?
             </h3>
-            <ul className='list-disc lg:list-inside lg:px-0 px-5'>
-              <li className='pt-5'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                quas voluptatum numquam labore doloribus rerum, cumque sunt
-                blanditiis cum excepturi?
+            <div className='border-t w-full pb-7'></div>
+            <p className='pt-5'>
+              It's pretty simple, really. I wanted a reason to showcase my
+              frontend development skills for a single page website.
+            </p>
+            <p className='pt-5'>
+              I chose the subject of an investment firm because the professional
+              nature of the field meant that I could 'flex my UI/UX muscles' via
+              a more formal design. Furthermore, as a semi-complex subject
+              matter, the information would need to be easily parsable to the
+              average potential customer. I reasoned this would be best suited
+              to a single page website, so as to not overwhelm them, whilst also
+              making any services and contact information easy to find.
+            </p>
+          </div>
+          <div className='py-10'>
+            <h3 className='text-3xl font-headingMain py-3'>
+              Why Use React/Next.js For Such a Simple Website?
+            </h3>
+            <div className='border-t w-full pb-7'></div>
+            <p className='pt-5 pb-1'>
+              It may seem like overkill to use React for a single page website,
+              but there were three primary reasons:
+            </p>
+            <ol className='list-decimal list-inside'>
+              <li className='pt-2'>
+                On a purely personal level, I'm faster developing in a Next.js
+                environment. I've used it extensively and thus knew I could bash
+                the project out in a vastly reduced time, simply because I
+                needed to think less.
               </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Obcaecati illum, architecto ipsum tempora debitis aliquam!
-                Provident quos eligendi officiis perspiciatis fugiat, aliquam
-                atque obcaecati delectus eius nihil dolorum a et quibusdam eum
-                saepe assumenda qui natus quam facere minima aliquid!
+              <li className='pt-2'>
+                Similarly, I'm well versed with Framer Motion. Using React meant
+                I could rely on this library for animations, and thus spend less
+                time thinking about how to do what I needed to do, and spend
+                more time doing what I needed to do.
               </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Veritatis, possimus vel molestiae cum perferendis facere dolore!
-                Nobis error possimus eos veniam voluptate quis enim provident
-                accusantium aliquam. Voluptates, quae est.
+              <li className='pt-2'>
+                For a single page website split into multiple sections, I liked
+                the idea of writing those sections as their own components and
+                then just importing them into the main index.js file. This
+                approach felt more organised to me, making it easier to jump
+                around and edit, whilst also making any reordering of where
+                sections sit on the page mind numblingly simple.
               </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas porro inventore quisquam mollitia unde, quam aliquam at
-                quia temporibus tenetur soluta earum nam dolor consequuntur
-                obcaecati eos ipsa voluptatum quo. Ab vero similique, soluta sit
-                quasi reiciendis facere dolor tenetur, non rem aliquam qui
-                excepturi? Necessitatibus odit officia eligendi dignissimos!
-              </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                maxime? Possimus officiis ipsum expedita earum unde ipsa!
-                Facilis quisquam ipsam officiis debitis veniam excepturi sunt
-                repellat ad animi! Molestiae, velit!
-              </li>
-            </ul>
+            </ol>
           </div>
         </section>
       </motion.main>
