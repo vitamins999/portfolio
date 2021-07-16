@@ -27,12 +27,20 @@ const EssenceAndElementsPage = () => {
               </h2>
             </div>
             <div className='flex lg:flex-row flex-col items-center lg:pb-2'>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://essenceandelements.netlify.app/'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 lg:my-0 my-5 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   Visit Site
                 </button>
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://github.com/vitamins999/essence-and-elements'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   View Code on Github
                 </button>
@@ -48,109 +56,94 @@ const EssenceAndElementsPage = () => {
                 Frontend
               </h2>
               <p className='font-bodyMain text-gray-700'>
-                NextJS, TailwindCSS, Framer Motion
+                Next.js, Tailwind CSS, Framer Motion
               </p>
             </div>
           </div>
         </section>
         <section className='lg:px-84 iPadPro:px-32 iPadWidescreen:px-32 px-10 lg:pb-10 pt-5 pb-5'>
           <div>
-            <h3 className='text-3xl font-headingMain py-3'>Problem</h3>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic ex
-              quisquam veniam maxime facilis sunt voluptatibus nemo nobis
-              molestiae. Facilis nobis molestias illum quo. Quod quas quae quis
-              in consectetur officia, tenetur laborum doloribus voluptates ipsam
-              praesentium et assumenda nobis nihil aut asperiores placeat!
-              Consequatur rerum cum, inventore deserunt repudiandae blanditiis,
-              iusto reprehenderit accusantium qui, enim animi temporibus
-              delectus saepe!
+            <h3 className='text-3xl font-headingMain py-3'>
+              Customer Specification
+            </h3>
+            <div className='border-t w-full pb-7'></div>
+            <p className='pt-5 pb-1'>
+              When the customer came to me, we outlined three major items that
+              needed to be addressed with the finished site:
             </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              quisquam voluptatem, rerum dolorum aut quas natus qui quos
-              molestias facilis quo. Iusto exercitationem natus nemo, adipisci
-              veritatis maiores officia totam accusantium odit repudiandae velit
-              vero voluptatem, sunt veniam commodi quasi.
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod
-              provident laborum nesciunt porro blanditiis qui facere! Totam id,
-              delectus laborum voluptas rem hic minus quod cumque, voluptate
-              reiciendis deserunt natus perspiciatis laboriosam animi voluptatem
-              quo harum esse maiores nam officiis? Eum dolorum quasi rerum illo
-              error voluptas aspernatur modi maxime sit consequatur vel nobis
-              quis deserunt, dolor sunt nostrum?
-            </p>
-          </div>
-          <div className='pt-10'>
-            <h3 className='text-3xl font-headingMain py-3'>Solution</h3>
-            <p className='pt-5'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Delectus, perferendis amet vel nam, exercitationem accusamus
-              consequatur minima necessitatibus totam, atque nesciunt. Ipsa
-              reprehenderit deleniti inventore alias! Ducimus reiciendis quidem
-              cum placeat! Culpa vero nihil odio minima atque corrupti esse
-              perferendis, totam, accusamus voluptas voluptatibus. Saepe
-              accusamus recusandae, veniam officia libero voluptates expedita
-              asperiores ex rem nihil in culpa ut inventore.
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-              officia doloribus totam sit! Consequatur ad ut nostrum nisi neque
-              minima eum mollitia sunt nobis reiciendis quod dolor iusto eos
-              rerum explicabo ducimus a doloremque ullam ipsum corrupti, non
-              odio vel nulla? Recusandae eaque, deserunt dicta officia ex enim.
-              Aperiam necessitatibus tenetur et corrupti, fugiat voluptas nisi
-              sed in maxime quibusdam, aspernatur nesciunt! Est, suscipit dolor
-              accusamus adipisci quasi eaque magni porro saepe dicta maiores sit
-              aut corporis placeat temporibus quam!
-            </p>
-            <p className='pt-5'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
-              vero fugiat praesentium aspernatur, totam mollitia maiores earum
-              placeat eius dolores magnam necessitatibus, officiis temporibus
-              suscipit eaque. Quam, id temporibus! Molestiae?
-            </p>
+            <ol className='list-decimal list-inside'>
+              <li className='pt-2'>
+                They needed to be able to advertise the three different services
+                they offer (Tarot, Crystal Healing and Raiki).
+              </li>
+              <li className='pt-2'>
+                They needed to be able to sell a limited range of products
+                (bracelets and necklaces).
+              </li>
+              <li className='pt-2'>It needed to be cheap. Very cheap.</li>
+            </ol>
           </div>
           <div className='pt-10'>
             <h3 className='text-3xl font-headingMain py-3'>
-              Key Design Choices
+              Solutions To Problems
             </h3>
-            <ul className='list-disc lg:list-inside lg:px-0 px-5'>
-              <li className='pt-5'>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-                quas voluptatum numquam labore doloribus rerum, cumque sunt
-                blanditiis cum excepturi?
-              </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Obcaecati illum, architecto ipsum tempora debitis aliquam!
-                Provident quos eligendi officiis perspiciatis fugiat, aliquam
-                atque obcaecati delectus eius nihil dolorum a et quibusdam eum
-                saepe assumenda qui natus quam facere minima aliquid!
-              </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Veritatis, possimus vel molestiae cum perferendis facere dolore!
-                Nobis error possimus eos veniam voluptate quis enim provident
-                accusantium aliquam. Voluptates, quae est.
-              </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptas porro inventore quisquam mollitia unde, quam aliquam at
-                quia temporibus tenetur soluta earum nam dolor consequuntur
-                obcaecati eos ipsa voluptatum quo. Ab vero similique, soluta sit
-                quasi reiciendis facere dolor tenetur, non rem aliquam qui
-                excepturi? Necessitatibus odit officia eligendi dignissimos!
-              </li>
-              <li className='pt-5'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                maxime? Possimus officiis ipsum expedita earum unde ipsa!
-                Facilis quisquam ipsam officiis debitis veniam excepturi sunt
-                repellat ad animi! Molestiae, velit!
-              </li>
-            </ul>
+            <div className='border-t w-full pb-7'></div>
+            <p className='pt-5'>
+              The most obvious solution to an e-commerce specification would
+              have been to either create a complete fullstack e-commerce site
+              with baskets and user accounts and a database and all that jazz
+              (most probably a MERN or PERN stack with my skillset), or to
+              simplify the workload and hand off most shopping functions to a
+              solution like Shopify.
+            </p>
+            <p className='pt-5'>
+              But those solutions are pricey, both through man hours to create
+              the solution, and monthly subscription costs for APIs like
+              Shopify, in addition to hosting. And whilst these costs can be
+              mitigated by a lot of new businesses, these options were outside
+              of my client's price range.
+            </p>
+            <p className='pt-5'>
+              My solution? Simplify everything and create a frontend only
+              website. No backend, no database. Just a list of all the products
+              they offer (stored as a simple Javascript Object in a data folder)
+              with a link to buy the item that redirects to an Etsy page for the
+              item (which the client had already created). The amount of
+              different items is very small and does not change very often,
+              making this solution have very little overhead.
+            </p>
+            <p className='pt-5'>
+              As the client's services are personalised to the customer, and the
+              client wanted to communicate directly with their customers through
+              email, the pages for services were simplified to each having their
+              own contact form that emails the client with all the necessary
+              information the client would want from their customer. This allows
+              the client to arrange payment for their services on their own (and
+              allow for easy scaling up in the future to include integrated
+              Paypal functions in the website after the form submittal, if the
+              client wishes to pay for more work).
+            </p>
+          </div>
+          <div className='py-10'>
+            <h3 className='text-3xl font-headingMain py-3'>Hosting</h3>
+            <div className='border-t w-full pb-7'></div>
+            <p className='pt-5'>
+              To further reduce costs, the website is hosted on{' '}
+              <a
+                className='underline text-blue-700'
+                href='https://netlify.com'
+                rel='noreferrer noopener'
+                target='_blank'
+              >
+                Netlify.com
+              </a>{' '}
+              As a frontend only website, this was completely viable, and meant
+              the client did not have to pay for hosting.
+            </p>
+            <p className='pt-5'>
+              Furthermore, Netlify offer serverless functions for contact forms,
+              simplifying everything even further.
+            </p>
           </div>
         </section>
       </motion.main>
