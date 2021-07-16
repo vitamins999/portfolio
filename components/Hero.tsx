@@ -21,9 +21,9 @@ const Hero = ({ fullpageApi }) => {
           you've probably already figured that out.
         </p>
         <p className='md:max-w-lg max-w-md lg:mt-10 mt-5 lg:text-base text-sm font-bodyMain text-gray-100 text-center'>
-          I specialise in React (specifically NextJS) and I'm on the lookout for
-          a job as a junior developer. I'm also fullstack capable, with a real
-          passion for creative problem solving.
+          I specialise in React (specifically Next.js) and I'm on the lookout
+          for a job as a junior developer. I'm also fullstack capable, with a
+          real passion for creative problem solving.
         </p>
         <div className='lg:py-5 py-10 lg:mt-10'>
           <button

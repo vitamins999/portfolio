@@ -19,8 +19,16 @@ const ProjectUbooze = () => {
             you.
           </p>
           <p className='md:max-w-lg max-w-md mt-5 text-sm md:text-base font-bodyUbooze text-gray-100 text-center'>
-            Technologies used include Next.js, Redux, PostgreSQL, Express,
-            TailwindCSS and PassportJS.
+            Also includes full login/register functionality for user accounts
+            (as well as Facebook and Google sign ins), for the ability to
+            favourite products and create your own public favourite alcohol
+            pages, for easy access to your favourite product price comparisons
+            in the future.
+          </p>
+          <p className='md:max-w-lg max-w-md mt-5 text-sm md:text-base font-bodyUbooze text-gray-100 text-center'>
+            Technologies used include Next.js, Redux, PostgreSQL, Express, Node,
+            Passport.js, Axios, Cheerio, Puppeteer, Tailwind CSS and Framer
+            Motion.
           </p>
           <div className='lg:py-5 mt-10 flex md:flex-row flex-col'>
             <button className='py-4 px-14 md:mr-5 md:mb-0 mb-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
