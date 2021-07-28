@@ -127,13 +127,13 @@ const EssenceAndElementsPage = () => {
               often, making this solution have very little overhead.
             </p>
             <p className='pt-5'>
-              However, I didn't like having all of the product data located in
-              the frontend, easily available for the client to see in the
-              browser using the browser dev tools. Whilst there isn't an issue
-              with download size currently (the file is tiny), if the business
-              ever took off and needed to expand to hundreds, even thousands
-              more products, the client would be expected to download that file
-              every time so the website can populate.
+              However, I didn't like having all the product data located in the
+              frontend, easily available for the user to see in the browser
+              using the browser dev tools. Whilst there isn't an issue with
+              download size currently (the file is tiny), if the business ever
+              took off and needed to expand to hundreds, even thousands more
+              products, the user would be expected to download that file every
+              time so the website can populate.
             </p>
             <p className='pt-5'>
               Furthermore, if there were any fields in the products data file
