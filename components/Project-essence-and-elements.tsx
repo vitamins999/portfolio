@@ -9,11 +9,12 @@ const ProjectEssenceAndElements = () => {
           <h1 className='font-headingEandE text-4xl lg:text-7xl iPad:text-7xl uppercase font-semibold text-gray-200 py-2 leading-tight'>
             Essence <span className='text-yellow-400'>& Elements</span>
           </h1>
-          <p className='font-HeadingEandE font-semibold text-gray-200 text-sm lg:text-lg iPad:text-lg lg:mt-5 iPad:mt-5'>
-            A freelance client website for{' '}
+          <p className='font-bodyEandE text-gray-200 text-sm lg:text-base iPad:text-base lg:mt-5 iPad:mt-5'>
+            A fullstack freelance website for{' '}
             <span className='italic'>Essence & Elements</span>: a company
             specialising in natural healing products and services. Developed
-            primarily with Next.js and Tailwind CSS.
+            primarily with Next.js, Tailwind CSS, GraphQL and Apollo on the
+            frontend, and Strapi, GraphQL and PostgreSQL on the backend.
           </p>
           <div className='lg:py-5 iPad:py-5 mt-10 flex lg:flex-row iPad:flex-row flex-col'>
             <a
