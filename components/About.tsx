@@ -44,7 +44,7 @@ const About = () => {
             </li>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Frameworks</span>: React, Next.js,
-              Redux, Express, Node, Tailwind CSS, SASS
+              Redux, Express, Node.js, Tailwind CSS, SASS
             </li>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Databases</span>: PostgreSQL,
