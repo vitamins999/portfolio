@@ -107,6 +107,16 @@ const Menu = ({ menuOpen, setMenuOpen }: Props) => {
             Contact Me
           </a>
         </motion.li>
+        <motion.li variants={sidebar}>
+          <a
+            href='/files/jools-barnett-cv.pdf'
+            target='_blank'
+            rel='noreferrer'
+            className='hover:text-green-300 transition ease-in-out duration-150 text-xl xl:text-2xl tracking-tight leading-normal'
+          >
+            My CV
+          </a>
+        </motion.li>
       </motion.ul>
     </motion.nav>
   );
