@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Hero = ({ fullpageApi }) => {
   return (
     <section className='relative h-screen w-full overflow-hidden flex flex-col justify-center items-center section lg:px-0 lg:pt-0 pt-10 px-10'>
@@ -26,6 +28,15 @@ const Hero = ({ fullpageApi }) => {
           real passion for creative problem solving.
         </p>
         <div className='lg:py-5 py-10 lg:mt-10'>
+          <a
+            href='/files/jools-barnett-cv.pdf'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <button className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 focus:outline-none font-bodyEandE'>
+              Checkout My CV
+            </button>
+          </a>
           <button
             onClick={() => {
               fullpageApi.moveTo(3);
