@@ -28,7 +28,7 @@ const EssenceAndElementsPage = () => {
             </div>
             <div className='flex lg:flex-row flex-col items-center lg:pb-2'>
               <a
-                href='https://essenceandelements.netlify.app/'
+                href='https://www.essenceandelements.org'
                 target='_blank'
                 rel='noreferrer'
               >
