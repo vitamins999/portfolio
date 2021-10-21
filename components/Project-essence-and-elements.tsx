@@ -18,7 +18,7 @@ const ProjectEssenceAndElements = () => {
           </p>
           <div className='lg:py-5 iPad:py-5 mt-10 flex lg:flex-row iPad:flex-row flex-col'>
             <a
-              href='https://essenceandelements.netlify.app/'
+              href='https://www.essenceandelements.org'
               target='_blank'
               rel='noreferrer'
             >
