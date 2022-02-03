@@ -26,13 +26,26 @@ const UboozePage = () => {
             </div>
             <div className='flex lg:flex-row flex-col items-center'>
               <a href='#' target='_blank' rel='noreferrer'>
-                <button className='py-4 px-14 lg:my-0 my-5 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
+                <button className='py-4 px-14 lg:my-0 mt-3 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   Visit Site
                 </button>
               </a>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://github.com/vitamins999/uBooze'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <button className='py-4 px-14 lg:my-0 my-3 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
+                  View Website Code on Github
+                </button>
+              </a>
+              <a
+                href='https://github.com/vitamins999/ubooze-scraper'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
-                  View Code on Github
+                  View Scraper Code on Github
                 </button>
               </a>
             </div>
