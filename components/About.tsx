@@ -40,19 +40,20 @@ const About = () => {
           <ul className='pt-5 text-xs iPadWidescreen:text-sm lg:text-base'>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Languages</span>: Javascript,
-              Typescript, HTML, CSS, SQL, Python, C# (learning)
+              Typescript, HTML, CSS, SQL, Python
             </li>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Frameworks</span>: React, Next.js,
-              Redux, Express, Node.js, Tailwind CSS, SASS
+              Redux, Express.js, Node.js, Tailwind CSS, SASS
             </li>
             <li className='py-2 text-gray-900'>
               <span className='font-semibold'>Databases</span>: PostgreSQL,
               MySQL, MongoDB
             </li>
             <li className='py-2 text-gray-900'>
-              <span className='font-semibold'>Other</span>: Git, Github, Visual
-              Studio Code
+              <span className='font-semibold'>Other</span>: API Integration and
+              Development (REST), Unit and Integration Testing with React
+              Testing Library, Web Scraping with Axios, Puppeteer and Cheerio.js
             </li>
           </ul>
         </div>
