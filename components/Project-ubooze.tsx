@@ -31,9 +31,15 @@ const ProjectUbooze = () => {
             Motion.
           </p>
           <div className='lg:py-5 mt-10 flex md:flex-row flex-col'>
-            <button className='py-4 px-14 md:mr-5 md:mb-0 mb-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
-              Visit Site
-            </button>
+            <a
+              href='https://ubooze.vercel.app'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <button className='py-4 px-14 md:mr-5 md:mb-0 mb-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
+                Visit Site
+              </button>
+            </a>
             <Link href='/projects/ubooze'>
               <button className='py-4 px-14 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                 More Information
