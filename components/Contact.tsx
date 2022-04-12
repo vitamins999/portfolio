@@ -77,6 +77,17 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        <p className='-mb-8 mt-5 text-xs lg:text-base'>
+          Alternatively, please feel free to email me at:{' '}
+          <a
+            className='text-purple-700 underline'
+            href='mailto:joolsbarnett@gmail.com'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            joolsbarnett@gmail.com
+          </a>
+        </p>
       </div>
     </section>
   );
