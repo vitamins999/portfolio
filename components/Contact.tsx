@@ -9,7 +9,13 @@ const Contact = () => {
           Have any questions or comments? No problem. Just submit the form below
           and I'll strive to get back to you as soon as possible.
         </p>
-        <form className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'>
+        <form
+          name='contact'
+          method='POST'
+          action='/success'
+          data-netlify='true'
+          className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'
+        >
           <div className='p-2 w-1/2'>
             <div className='relative'>
               <label
