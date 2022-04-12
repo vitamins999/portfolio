@@ -1,4 +1,15 @@
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+
 const Contact = () => {
+  const { register, handleSubmit, reset } = useForm();
+  const [success, setSuccess] = useState(false);
+
+  const onSubmit = () => {
+    setSuccess(true);
+    reset({ name: '', email: '', message: '' });
+  };
+
   return (
     <section className='relative h-screen w-full bg-contactPortrait lg:bg-contact iPadPro:bg-top-4 bg-cover section'>
       <div className='flex flex-col justify-center items-center lg:px-0 px-5 iPadPro:ml-0 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-108'>
@@ -10,9 +21,9 @@ const Contact = () => {
           and I'll strive to get back to you as soon as possible.
         </p>
         <form
+          onSubmit={handleSubmit(onSubmit)}
           name='contact'
           method='POST'
-          action='/success'
           data-netlify='true'
           className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'
         >
@@ -25,6 +36,7 @@ const Contact = () => {
                 Name
               </label>
               <input
+                {...register('name')}
                 type='text'
                 id='name'
                 name='name'
@@ -43,6 +55,7 @@ const Contact = () => {
                 Email
               </label>
               <input
+                {...register('email')}
                 type='email'
                 id='email'
                 name='email'
@@ -61,6 +74,7 @@ const Contact = () => {
                 Questions or comments
               </label>
               <textarea
+                {...register('message')}
                 id='message'
                 name='message'
                 required
@@ -77,6 +91,13 @@ const Contact = () => {
             </button>
           </div>
         </form>
+        <p
+          className={`text-xs lg:text-base text-purple-700 ${
+            success ? 'visible' : 'invisible'
+          }`}
+        >
+          <span>Form submitted successfully!</span>
+        </p>
         <p className='-mb-8 mt-5 text-xs lg:text-base'>
           Alternatively, please feel free to email me at:{' '}
           <a
