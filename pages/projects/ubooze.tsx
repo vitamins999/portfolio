@@ -25,7 +25,11 @@ const UboozePage = () => {
               <h2 className='font-headingUbooze text-7xl'>Ubooze</h2>
             </div>
             <div className='flex lg:flex-row flex-col items-center'>
-              <a href='#' target='_blank' rel='noreferrer'>
+              <a
+                href='https://ubooze.vercel.app'
+                target='_blank'
+                rel='noreferrer'
+              >
                 <button className='py-4 px-14 lg:my-0 mt-3 lg:mr-5 uppercase font-bold text-xs tracking-wider bg-gray-50 text-gray-800 transition duration-150 hover:bg-gray-800 hover:text-gray-50 font-bodyEandE focus:outline-none'>
                   Visit Site
                 </button>
