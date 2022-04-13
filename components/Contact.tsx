@@ -39,10 +39,10 @@ const Contact = () => {
           <span>Form submitted successfully!</span>
         </p>
         <form
-          // onSubmit={handleSubmit(onSubmit)}
           name='contact'
           method='POST'
           data-netlify='true'
+          data-netlify-recaptcha='true'
           className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'
         >
           <input type='hidden' name='form-name' value='contact' />
@@ -55,7 +55,6 @@ const Contact = () => {
                 Name
               </label>
               <input
-                // {...register('name')}
                 type='text'
                 id='name'
                 name='name'
@@ -74,7 +73,6 @@ const Contact = () => {
                 Email
               </label>
               <input
-                //{...register('email')}
                 type='email'
                 id='email'
                 name='email'
@@ -93,7 +91,6 @@ const Contact = () => {
                 Questions or comments
               </label>
               <textarea
-                // {...register('message')}
                 id='message'
                 name='message'
                 required
@@ -102,6 +99,7 @@ const Contact = () => {
             </div>
           </div>
           <div className='p-2'>
+            <div data-netlify-recaptcha='true'></div>
             <button
               type='submit'
               className='w-full py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-800 text-gray-50 transition duration-150 hover:bg-green-500 hover:text-gray-800 font-bodyEandE'
