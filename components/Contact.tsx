@@ -45,6 +45,7 @@ const Contact = () => {
           data-netlify='true'
           className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'
         >
+          <input type='hidden' name='form-name' value='contact' />
           <div className='p-2 w-1/2'>
             <div className='relative'>
               <label
