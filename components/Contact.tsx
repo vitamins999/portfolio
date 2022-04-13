@@ -39,7 +39,7 @@ const Contact = () => {
           <span>Form submitted successfully!</span>
         </p>
         <form
-          onSubmit={handleSubmit(onSubmit)}
+          // onSubmit={handleSubmit(onSubmit)}
           name='contact'
           method='POST'
           data-netlify='true'
@@ -55,7 +55,7 @@ const Contact = () => {
                 Name
               </label>
               <input
-                {...register('name')}
+                // {...register('name')}
                 type='text'
                 id='name'
                 name='name'
@@ -74,7 +74,7 @@ const Contact = () => {
                 Email
               </label>
               <input
-                {...register('email')}
+                //{...register('email')}
                 type='email'
                 id='email'
                 name='email'
@@ -93,7 +93,7 @@ const Contact = () => {
                 Questions or comments
               </label>
               <textarea
-                {...register('message')}
+                // {...register('message')}
                 id='message'
                 name='message'
                 required
