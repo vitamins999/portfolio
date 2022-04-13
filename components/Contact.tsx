@@ -11,14 +11,32 @@ const Contact = () => {
   };
 
   return (
-    <section className='relative h-screen w-full bg-contactPortrait lg:bg-contact iPadPro:bg-top-4 bg-cover section'>
-      <div className='flex flex-col justify-center items-center lg:px-0 px-5 iPadPro:ml-0 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-108'>
+    <section className='relative h-screen w-full bg-contactPortrait lg:bg-contact iPadPro:bg-top-4 section bg-cover md:bg-top-0 bg-top-4 iPadWidescreen:bg-top-4'>
+      <div className='flex flex-col justify-center xl:mt-0 mt-0 lg:-mt-20 surfacePro7Widescreen:-mt-20 iPad:-mt-20 iPadAir:-mt-20 iPadAirWidescreen:-mt-32 iPhoneSE:mt-16 items-center md:px-32 lg:px-0 px-5 iPadPro:ml-0 iPadAirWidescreen:ml-80 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-56 xl:ml-108'>
         <h1 className='font-headingMain text-5xl iPadWidescreen:text-5xl lg:text-7xl text-red-700'>
           Contact Me
         </h1>
         <p className='lg:max-w-lg px-3 lg:px-0 lg:mt-10 mt-5 lg:text-base text-sm iPadWidescreen:text-sm font-bodyMain text-gray-900 text-center'>
           Have any questions or comments? No problem. Just submit the form below
           and I'll strive to get back to you as soon as possible.
+        </p>
+        <p className='visible md:invisible mt-5 text-center lg:-mt-20 md:-mt-10 2xl:-mt-10 iPad:-mt-7 iPadPro:-mt-7 iPadWidescreen:-mt-7 iPadProWidescreen:-mt-7 iPadProWidescreen:-mb-0 text-sm lg:text-sm'>
+          Alternatively, please feel free to email me at:{' '}
+          <a
+            className='text-purple-700 underline'
+            href='mailto:joolsbarnett@gmail.com'
+            rel='noreferrer noopener'
+            target='_blank'
+          >
+            joolsbarnett@gmail.com
+          </a>
+        </p>
+        <p
+          className={`text-sm lg:text-sm text-purple-700 -mb-5 mt-5 ${
+            success ? 'visible md:invisible' : 'invisible'
+          }`}
+        >
+          <span>Form submitted successfully!</span>
         </p>
         <form
           onSubmit={handleSubmit(onSubmit)}
@@ -85,20 +103,20 @@ const Contact = () => {
           <div className='p-2'>
             <button
               type='submit'
-              className='py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-800 text-gray-50 transition duration-150 hover:bg-green-500 hover:text-gray-800 font-bodyEandE'
+              className='w-full py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-800 text-gray-50 transition duration-150 hover:bg-green-500 hover:text-gray-800 font-bodyEandE'
             >
               Send
             </button>
           </div>
         </form>
         <p
-          className={`text-xs lg:text-base text-purple-700 ${
-            success ? 'visible' : 'invisible'
+          className={`text-xs lg:text-sm text-purple-700 ${
+            success ? 'md:visible invisible' : 'invisible'
           }`}
         >
           <span>Form submitted successfully!</span>
         </p>
-        <p className='-mb-8 mt-5 text-xs lg:text-base'>
+        <p className='md:visible invisible -mb-8 mt-10 text-center md:mt-5 iPadProWidescreen:mt-0 iPadProWidescreen:-mb-0 text-xs lg:text-sm iPadAir:text-sm iPadAirWidescreen:text-base'>
           Alternatively, please feel free to email me at:{' '}
           <a
             className='text-purple-700 underline'
