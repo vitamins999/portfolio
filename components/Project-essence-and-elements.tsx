@@ -5,8 +5,8 @@ const ProjectEssenceAndElements = () => {
     <section className='relative h-screen bg-essence bg-center w-full flex flex-col justify-center items-center section'>
       <div className='absolute top-0 left-0 bg-gray-900 opacity-60 h-screen w-full z-0'></div>
       <div className='absolute top-0 left 0 h-screen w-full flex flex-col justify-center items-center'>
-        <div className='z-10 flex flex-col justify-center items-center lg:items-start iPad:items-start lg:max-w-xl max-w-lg lg:p-0 iPad:p-0 p-5 text-center lg:text-left iPad:text-left'>
-          <h1 className='font-headingEandE text-4xl lg:text-7xl iPad:text-7xl uppercase font-semibold text-gray-200 py-2 leading-tight'>
+        <div className='z-10 flex flex-col justify-center items-center lg:items-start iPad:items-center lg:max-w-xl max-w-lg lg:p-0 iPad:p-0 p-5 text-center lg:text-left iPad:text-center iPadPro:text-center iPadPro:items-center iPadProWidescreen:text-center iPadProWidescreen:items-center iPadWidescreen:text-center iPadWidescreen:items-center'>
+          <h1 className='font-headingEandE text-4xl lg:text-7xl iPad:text-7xl iPadAir:text-7xl uppercase font-semibold text-gray-200 py-2 leading-tight'>
             Essence <span className='text-yellow-400'>& Elements</span>
           </h1>
           <p className='font-bodyEandE text-gray-200 text-sm lg:text-base iPad:text-base lg:mt-5 iPad:mt-5'>

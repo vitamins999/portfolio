@@ -6,7 +6,7 @@ const ProjectUbooze = () => {
       <div className='absolute top-0 left-0 bg-gray-900 opacity-60 h-screen w-full z-0'></div>
       <div className='absolute top-0 left-0 h-screen w-full flex flex-col justify-center items-center'>
         <div className='z-10 flex flex-col justify-center items-center px-5 md:px-0'>
-          <h1 className='font-headingUbooze text-5xl lg:text-8xl iPad:text-8xl iPadWidescreen:text-8xl iPadPro:text-8xl iPadProWidescreen:text-8xl text-green-600'>
+          <h1 className='font-headingUbooze text-8xl lg:text-8xl iPad:text-8xl iPadWidescreen:text-8xl iPadPro:text-8xl iPadProWidescreen:text-8xl text-green-600'>
             Ubooze
           </h1>
           <h2 className='font-bodyUbooze text-gray-200 tracking-widest md:-mt-0 -mt-2'>
@@ -30,7 +30,7 @@ const ProjectUbooze = () => {
             Passport.js, Axios, Cheerio, Puppeteer, Tailwind CSS and Framer
             Motion.
           </p>
-          <div className='lg:py-5 mt-10 flex md:flex-row flex-col'>
+          <div className='lg:py-5 mt-10 flex md:flex-row flex-col items-center'>
             <a
               href='https://ubooze.vercel.app'
               target='_blank'
