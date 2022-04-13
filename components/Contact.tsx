@@ -42,7 +42,7 @@ const Contact = () => {
           name='contact'
           method='POST'
           data-netlify='true'
-          data-netlify-recaptcha='true'
+          netlify-honeypot='bot-field'
           className='lg:py-5 mt-5 iPadWidescreen:py-0 flex flex-wrap justify-center max-w-2xl iPadWidescreen:max-w-lg'
         >
           <input type='hidden' name='form-name' value='contact' />
@@ -99,7 +99,11 @@ const Contact = () => {
             </div>
           </div>
           <div className='p-2'>
-            <div data-netlify-recaptcha='true'></div>
+            <p className='hidden'>
+              <label>
+                Don't fill this out if you're human: <input name='bot-field' />
+              </label>
+            </p>
             <button
               type='submit'
               className='w-full py-4 px-14 mr-5 uppercase font-bold text-xs tracking-wider bg-gray-800 text-gray-50 transition duration-150 hover:bg-green-500 hover:text-gray-800 font-bodyEandE'
