@@ -12,8 +12,8 @@ const Contact = () => {
 
   return (
     <section className='relative h-screen w-full bg-contactPortrait lg:bg-contact iPadPro:bg-top-4 section bg-cover md:bg-top-0 bg-top-4 iPadWidescreen:bg-top-4'>
-      <div className='flex flex-col justify-center xl:mt-0 mt-0 lg:-mt-20 surfacePro7Widescreen:-mt-20 iPad:-mt-20 iPadAir:-mt-20 iPadAirWidescreen:-mt-32 iPhoneSE:mt-16 items-center md:px-32 lg:px-0 px-5 iPadPro:ml-0 iPadAirWidescreen:ml-80 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-56 xl:ml-108'>
-        <h1 className='font-headingMain text-5xl iPadWidescreen:text-5xl lg:text-7xl text-red-700'>
+      <div className='flex flex-col justify-center xl:mt-0 mt-0 lg:-mt-20 samsungS7:mt-8 surfacePro7Widescreen:-mt-20 iPad:-mt-20 iPadAir:-mt-20 iPadAirWidescreen:-mt-32 iPhoneSE:mt-16 items-center md:px-32 lg:px-0 px-5 iPadPro:ml-0 iPadAirWidescreen:ml-80 iPadProWidescreen:ml-80 iPadWidescreen:ml-92 lg:ml-56 xl:ml-108'>
+        <h1 className='font-headingMain text-5xl iPadWidescreen:text-5xl samsungS7:text-4xl lg:text-7xl text-red-700'>
           Contact Me
         </h1>
         <p className='lg:max-w-lg px-3 lg:px-0 lg:mt-10 mt-5 lg:text-base text-sm iPadWidescreen:text-sm font-bodyMain text-gray-900 text-center'>
@@ -32,7 +32,7 @@ const Contact = () => {
           </a>
         </p>
         <p
-          className={`text-sm lg:text-sm text-purple-700 -mb-5 mt-5 ${
+          className={`text-sm lg:text-sm samsungS7:-mt-5 text-purple-700 -mb-5 mt-5 ${
             success ? 'visible md:invisible' : 'invisible'
           }`}
         >
