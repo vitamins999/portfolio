@@ -56,6 +56,7 @@ module.exports = {
       },
       screens: {
         xs: '568px',
+        samsungS7: { raw: '(width: 360px) and (height: 640px)' },
         iPhoneSE: { raw: '(width: 375px) and (height: 667px)' },
         iPad: { raw: '(width: 768px) and (height: 1024px)' },
         iPadWidescreen: { raw: '(width: 1024px) and (height: 768px)' },
